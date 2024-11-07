@@ -1,31 +1,62 @@
 * {
   box-sizing: border-box;
+  border: 1px solid red;
 }
 
 body {
-    height: 100vh;
+  height: 100vh;
 }
 
 .hero {
-    background-color: #24053E;
-    height: 33%;
-    display: flex;
-    flex-direction: column;
+  background-color: #24053e;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  align-self: center;
+  width: 80%;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  align-self: center;
+  text-align: center;
 }
 
 .first-ornamental {
-    width: 100%;
-    margin-top: auto;
+  width: 100%;
+  margin-top: auto;
 }
 
 .informations {
-    background-color: #FCF8FF;
-    height: 33%;
-    display: flex;
-    flex-direction: column;
+  background-color: #fcf8ff;
+  height: 33%;
+  display: flex;
+  flex-direction: column;
+}
+
+.informations-list {
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  width: 80%;
+  align-self: center;
+}
+
+.informations-list li {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .second-ornamental {
-    width: 100%;
-    margin-top: auto;
+  width: 100%;
+  margin-top: auto;
 }
