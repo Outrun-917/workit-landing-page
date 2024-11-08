@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -22,12 +22,21 @@ body {
   padding-top: 56px;
 }
 
+.cta-apply {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
 .hero-content {
   display: flex;
   flex-direction: column;
   width: 80%;
   align-self: center;
   text-align: center;
+}
+
+.main-title {
+  color: #FFFFFF;
 }
 
 .first-ornamental {
@@ -54,6 +63,19 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
+}
+
+.list-number {
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .second-ornamental {
