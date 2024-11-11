@@ -1,6 +1,8 @@
 * {
   box-sizing: border-box;
   /* border: 1px solid red; */
+  /* font-family: "Manrope", sans-serif; */
+  /* font-family: "Fraunces", serif; */
 }
 
 body {
@@ -23,8 +25,13 @@ body {
 }
 
 .cta-apply {
-  text-decoration: none;
-  color: #FFFFFF;
+  text-decoration: underline;
+  text-decoration-color: #44ffa1;
+  text-underline-offset: 8px;
+  color: #ffffff;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .hero-content {
@@ -36,7 +43,32 @@ body {
 }
 
 .main-title {
-  color: #FFFFFF;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+  font-size: 80px;
+  /* width: 635px;
+  margin-left: auto;
+  margin-right: auto; */
+}
+
+.main-title span {
+  text-decoration: underline;
+  text-decoration-color: #44ffa1;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 4px;
+}
+
+.cta-learn-more {
+  padding: 12px 32px 12px 32px;
+  text-decoration: none;
+  color: #000000;
+  background-color: #44ffa1;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Manrope", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .first-ornamental {
@@ -49,6 +81,7 @@ body {
   height: 33%;
   display: flex;
   flex-direction: column;
+  padding-top: 88px;
 }
 
 .informations-list {
@@ -76,6 +109,23 @@ body {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+  font-size: 24px;
+}
+
+.list-title {
+  margin-top: 56px;
+  font-weight: 600;
+  font-family: "Fraunces", serif;
+  font-size: 32px;
+}
+
+.list-description {
+  margin-top: 28px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .second-ornamental {
